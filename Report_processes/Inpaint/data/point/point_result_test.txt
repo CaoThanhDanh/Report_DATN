@@ -1,0 +1,1 @@
+point\complex\complex_3.jpg|point\complex_inpainted|(221, 142)

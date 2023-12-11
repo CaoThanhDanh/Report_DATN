@@ -43,7 +43,7 @@ def main():
     # coordinate = tuple(args.point_coords)
     # output_dir = args.output_dir
 
-    point_result_file = r'D:\Workspace\University\Report_DATN\Report_processes\Inpaint\data\point\point_result.txt'
+    point_result_file = r'D:\Workspace\University\Report_DATN\Report_processes\Inpaint\data\point\point_result_test.txt'
     dir_prefix = r'D:\Workspace\University\Report_DATN\Report_processes\Inpaint\data'
 
     with open(point_result_file, 'r') as file:

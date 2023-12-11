@@ -56,16 +56,16 @@ def MouseEventHandler(event,x,y,flags,param):
         elif mode == Mode.POLYGON:
             inpaintMask.shapes.append(Shape(mode= mode, param= listPoints))
 
-inputPath = r'shape\complex\complex_0.jpg'
+inputPath = r'shape\simple\simple_0.jpg'
 
 images = [
-    r'shape\complex\complex_0.jpg',
-    r'shape\complex\complex_1.jpg',
-    r'shape\complex\complex_2.jpg',
-    r'shape\complex\complex_3.jpg',
-    r'shape\complex\complex_4.jpg',
-    r'shape\complex\complex_5.jpg',
-    r'shape\complex\complex_6.jpg',
+    # r'shape\simple\simple_0.jpg',
+    # r'shape\simple\simple_1.jpg',
+    # r'shape\simple\simple_2.jpg',
+    r'shape\simple\simple_3.jpg',
+    # r'shape\simple\simple_4.jpg',
+    # r'shape\simple\simple_5.jpg',
+    # r'shape\simple\simple_6.jpg',
 ]
 
 currentIndex = 0
@@ -81,7 +81,7 @@ while(1):
     if key == ord('n'):
         # export mask
         mask = inpaintMask.drawMask(img)
-        cv.imwrite(f"shape\complex_masks\complex_{currentIndex}.jpg", mask)
+        cv.imwrite(f"shape\simple_masks\simple_3.jpg", mask)
 
         # restart image
         inpaintMask.shapes = []
