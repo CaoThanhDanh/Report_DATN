@@ -1,0 +1,30 @@
+Mask or Point
+
+- Thực hiện tạo: Mask bằng mouse_event ==> Xuất được dạng mask khác nhau
+    - rectangle, circle, point
+- Thực hiện tạo: Point bằng mouse_event ==> Xuất được dạng Point khác nhau
+    - point
+
+------------
+
+Shape:
+    Thực lấy thông số
+        rectangle, elip : cùng cách lấy hình chữ nhật
+        polygon: Thực hiện cách lấy khác
+
+        => Viết 1 class Shape để lưu các phần tử này, sau đó tiến hành vẽ 1 lần.
+    Thực hiện tạo mask từ thông số đó (Mask là ảnh xám - 8bits)
+    Lưu Mask đó xuống,
+    'Không cần show lên lại'
+
+
+Inpaint ra được kết quả
+
+- Thực hiện với Mask:
+- Thực hiện với Point:
+
+Điền vào báo cáo và đánh giá:
+
+""" Finish Inpain trong python """
+
+Deadline: Trong thứ 7

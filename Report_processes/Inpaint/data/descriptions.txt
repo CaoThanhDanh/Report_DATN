@@ -1,0 +1,28 @@
+Các cập độ phức tạp:
+
+	Simple: (Chỉ sửa các lỗi cơ bản của ảnh)
+		Vùng cần inpaint không chứa vật thể phức tạp
+		chỉ có các đối tượng hoặc cấu trúc đơn giản: đám mây, nền trời, hoặc vùng màu đồng nhất.
+
+	Intermediate: (Xóa vật thể đơn giản, trên cấu trúc đồng nhất cơ bản Inpaint)
+		Các vật thể đơn giản, xử lý trên nền ảnh.
+		Yêu cầu xử lý chi tiết hơn, vẫn có thể dùng kĩ thuật Inpaint bình thường được.
+
+	Complex: (Xóa vật thể phúc tạp, trên nền có cấu trúc phức tạp, đồng nhất)
+		Bao gồm các vật thể có chi tiết cao hơn, thực hiện trên nền có chi tiết phức tạp
+
+	Extremely complex: (Xóa vật thể phúc tạp, trên nền có cấu trúc phức tạp, không nhất)
+		Bao gồm các vật thể có chi tiết cao hơn.
+		Yêu cầu độ tái tạo đối tượng phúc tạp trong ngữ ảnh nhất định.
+
+Phương pháp tạo ra tập dữ liệu:
+
+	Object: Damaged, Text, Object [3]
+
+	Background: Đồng nhất, có cấu trúc, không có cấu trúc [3]
+
+
+Phương pháp ghép:
+	Object, Đồng nhất
+	Object, có cấu trúc
+	Object, không có cấu trúc
