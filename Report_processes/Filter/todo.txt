@@ -1,0 +1,16 @@
+Filter:
+    - Thực hiện filter với các dạng có sẳn.
+    - Thực hiện filter tinh chỉnh:
+        - Brightness
+        - Contrast
+        - SMOOTH
+        - SHARPEN
+
+Thực hiện thử nghiệm với các chuẩn ảnh khác nhau:
+    - JPEG - Check
+    - PNG - Check
+    - GIF - Check
+    - TIFF - Check
+    - BMP - Check
+    - WEBP - Check
+    - SVG - Check

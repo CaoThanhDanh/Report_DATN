@@ -1,0 +1,1 @@
+python filters.py _1977 assets\\mountain.jpg outputs\\mountain_Csharp.jpg
