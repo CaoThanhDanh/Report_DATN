@@ -1,0 +1,64 @@
+#1
+simple_0.png
+|
+[1] Computer Organization and Architecture 8th Edition, William
+Stallings,2011
+
+[2] Bài giảng kiến trúc máy tính - Viện CNTT-ĐH BK HN
+
+[3] Andrew S. Tanenbaum, Structured Computer Organization, 5rd
+Edition, Prentice- Hall International Edition, 2006.
+
+[4] Các nguồn tham khảo khác từ internet
+
+|
+#1
+#2
+simple_1.png
+|
+Kiến trúc tập lệnh (Instruction Set Architecture): bao gồm: tập lệnh,
+biểu diễn dữ liệu, các cơ chế vào ra, kỹ thuật đánh địa chỉ
+
+* Tập lệnh: tập hợp các chuỗi số nhị phân mã hoá cho các thao tác mà
+máy tính có thể thực hiện
+
+« Các kiểu dữ liệu: các kiểu dữ liệu mà máy tính có thể xử lý
+
+|
+#2
+#3
+simple_2.png
+|
+Semicolon after SQL Statements?
+
+Some database systems require a semicolon at the end of each SQL statement.
+
+Semicolon is the standard way to separate each SQL statement in database systems that allow more than one SQL statement to be
+executed in the same call to the server.
+
+In this tutorial, we will use semicolon at the end of each SQL statement.
+
+|
+#3
+#4
+simple_3.png
+|
+"Machine Learning Department, Carnegie Mellon University
+”Department of Computer Science, Princeton University
+agu®cs.. cmu. edu, tri@tridao .me
+
+|
+#4
+#5
+simple_4.png
+|
+Every table is broken up into smaller entities called fields. The fields in the Customers table consist of CustomerTD, CustomerName,
+ContactName, Address, City, PostalCode and Country. A field is a column in a table that is designed to maintain specific information
+
+about every record in the table.
+
+A record, also called a row, is each individual entry that exists in a table. For example, there are 91 records in the above Customers
+table. A record is a horizontal entity in a table.
+
+|
+#5

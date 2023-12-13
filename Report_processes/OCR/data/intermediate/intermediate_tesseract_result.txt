@@ -1,0 +1,118 @@
+#1
+intermediate_0.png
+|
+» Nguyên lý hoạt động
+
+CPU Bộ nhớ chính
+
+5° _ Đọc lệnh 5 Lưu trữ thông tin
+
+»« Phân tích lệnh 5 Lưu trức các chương
+
+« Thực thi lệnh trình để CPU đọc và
+thực thi
+
+Khối xuất nhập
+« Giao tiếp với môi trường bên ngoài
+« Xuất nhập dữ liệu,...
+
+
+|
+#1
+#2
+intermediate_1.png
+|
+Central
+Processing
+Unit (CPU)
+
+Instruction
+
+Control Unit
+
+Arithmetic &
+Logic Unit
+(ALU)
+
+Result/
+Operands
+
+Registers
+
+Status | Memory
+
+Instruction
+
+Instruction
+Memory
+
+Data
+
+Address
+
+Address
+
+Data Memory
+Address
+
+1O
+Peripherals
+
+Address
+Data
+
+Data
+Memory
+Address
+Data
+
+
+|
+#2
+#3
+intermediate_2.png
+|
+Loại lệnh Ầ
+
+C
+CPI theo loại lệnh 3
+2
+1
+
+|C trong dãy lệnh 1
+
+|C trong dãy lệnh 2
+
+°Ò  Dãy lệnh 1: IC =2+1+2=5 => N1= 2x1+ 1x2+ 2x3= 10
+° Dãylệnh 2: IC =4+1+1=6 => N2 =4 x1+ 1x2+ 1x3= 9
+
+€PI =12~2 CPI: =2 =1.5
+5 6
+
+|
+#3
+#4
+intermediate_3.png
+|
+Giá trị cốt lõi
+
+Đặt khách hàng làm trọng tâm, VinFost Sản phẩm đẳng cốp, giá
+không ngừng sóng tạo để tạo ra các sản | tốt, hậu mỗi vượt trội.
+phẩm đẳng cốp và trỏi nghiệm xuốt sắc
+cho mọi người.
+
+|
+#4
+#5
+intermediate_4.png
+|
+“
+ñŠ OCR stands for optical character recognition, ÕCR
+technology deals with the problem of recognizing all kinds
+Øf different characters. Both handwritten and printed
+characters can be recognized and converted into a
+machine-readable, digital data format.
+
+
+|
+#5

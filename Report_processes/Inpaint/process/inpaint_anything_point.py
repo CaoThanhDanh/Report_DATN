@@ -3,8 +3,6 @@ import sys
 from pathlib import Path
 import argparse
 
-
-        
 # DIR OF INPAINT ANYTHING
 LOCAL_ROOT_DIR = r'D:\Workspace\University\LVTN\PythonCode\Inpaint_Anything\Inpaint-Anything'
 

@@ -1,0 +1,49 @@
+Thực hiện OCR trong python:
+
+Dữ liệu đầu vào được phân thành các cập độ khác nhau:'
+    - Simple: chữ đen và nền trắng, không bị ảnh hưởng bởi ngữ cảnh - Check
+    - Intermediate: Chữ và nền có độ tương phản tốt, nhưng có yếu tố ngữ cảnh - Check
+    - Complex: Chữ và nền không phân biệt rõ, số lượng chi tiết nhiều và không theo cấu trúc cố định, có yếu tố ngữ cảnh. - Check
+
+Có hai cách tiếp cận khác nhau:
+    - Tesseract của python
+    - VietOCR
+
+Thực hiện lựa chọn ngôn ngữ xử lý:
+    - Tiếng Việt (2)
+    - Tiếng Anh (2)
+    - Tiếng Trung (1) - Chỉ hỗ trợ đối với Tesseract
+
+Hình thức tiếp cận:
+    - Xử lý toàn bộ ảnh.
+    - Xử lý vùng ảnh được chọn.
+
+
+Quá trình thực hiện:
+    - Thu thập dữ liệu - Check
+    - Thực hiện viết phần lý thuyết triển khai thực hiện. - Check
+
+    "Thực hiện với Pytesseract": - Check
+        * Thực hiện cài Tesseract Engine ở r'C:\Program Files\Tesseract-OCR'
+        * pip install pytesseract
+        * run code extract text from image
+
+    Thực hiện code VietOCR:
+        * vietOcrEnv.py trong PythonCode
+        * vietOcr_one.py
+        * vietOcr_all.py
+        * vietOcr_cmd.py
+        * vietOcrEnv.py
+
+    - Thực hiện xây dựng chương trình xử lý hàng loạt:
+        * Thực hiện gọi môi trường ảo.
+        * Thực hiện thống kê thời gian xử lý.
+        * Xử lý hàng loạt sau đó so sánh các kết quả. - Đã xứ lý xong
+    
+    - Toàn bộ ảnh, chọn ngôn ngữ là tiếng Anh, thực hiện thao tác đơn ảnh
+    - Thực hiện xác định vùng ảnh
+
+    - Xử lý đồng thời các vùng ảnh trong một bức ảnh
+    - Sử dụng Regex hỗ trợ lấy thông tin chính xác hơn
+
+    - Thực hiện xử lý hàng loạt - Check
