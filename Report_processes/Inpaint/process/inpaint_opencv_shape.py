@@ -39,7 +39,7 @@ for image in inputImages:
     mask = cv2.cvtColor(mask_show, cv2.COLOR_BGR2GRAY)
     
     # Inpaint.
-    dst = cv2.inpaint(img, mask, 5, cv2.INPAINT_NS)
+    dst = cv2.inpaint(img, mask, 5, cv2.INPAINT_TELEA)
 
     # Write the output.
     cv2.imwrite(outputPath, dst)
